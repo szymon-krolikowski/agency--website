@@ -23,4 +23,41 @@
             height: 300px
             top: 0%
             left: -15%
+
+    .aboutUs
+
+        &__firstArticle
+            display: grid
+            grid-template-columns: repeat(10, 1fr)
+            grid-row-gap: 30px
+            grid-column-gap: 30px
+
+        &__box--one
+            margin: 0
+            grid-column: 1 / span 5
+            grid-row: 1 /span 2
+
+        &__box--two
+            margin: 0
+            grid-column: 6 / span 5
+            grid-row: 2 /span 2
+
+        &__box--three
+            margin: 0
+            grid-column: 1 / span 5
+            grid-row: 3 /span 2
+
+        &__box--four
+            margin: 0
+            grid-column: 6 / span 5
+            grid-row: 4 /span 2
+
+        &__square
+            width: 55vw
+            height: 550px
+            background-color: $yellow
+            z-index: -1
+            position: absolute
+            top: 15%
+            left: 0
         

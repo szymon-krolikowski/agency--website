@@ -63,6 +63,7 @@ html
     flex-direction: column
     justify-content: center
     padding: 5rem 2rem
+    position: relative
 
     &__firstArticle
         padding: 5rem 2rem
@@ -74,6 +75,7 @@ html
         padding: 3rem 2rem
         background-color: white
         margin: 3rem 0rem
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2)
 
     &__headingThree
         font-weight: bold
@@ -119,6 +121,15 @@ html
         border: none
         padding: 1.5rem 2.5rem
         margin-top: 2rem
+
+    &__square
+        width: 100vw
+        height: 400px
+        background-color: $yellow
+        z-index: -1
+        position: absolute
+        top: 10%
+        left: 0
 
 @import "./_medium"
 @import "./_large"
