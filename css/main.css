@@ -557,9 +557,6 @@ html {
   .informationFirst__circle {
     width: 370px;
     height: 370px;
-    background-color: #F1C50E;
-    position: absolute;
-    border-radius: 50%;
     top: -20%;
     left: 80%;
   }
