@@ -64,7 +64,7 @@
     padding: 2rem 0rem;
   }
   .headingTwo {
-    font-size: 3.4rem;
+    font-size: 8rem;
     font-weight: 500;
     padding: 2rem 0rem;
   }
@@ -162,6 +162,8 @@ html {
           justify-content: center;
   padding: 5rem 2rem;
   position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .aboutUs__firstArticle {
@@ -381,6 +383,49 @@ html {
     height: 350px;
     top: 2%;
     left: -10%;
+  }
+  .aboutUs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .aboutUs__firstArticle {
+    width: 50%;
+  }
+  .aboutUs__secoundArticle {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .aboutUs__headingTwo {
+    max-width: 200px;
+    font-weight: bold;
+  }
+  .aboutUs__paragraphLong {
+    max-width: 500px;
+  }
+  .aboutUs__square {
+    left: -35%;
+    top: 30%;
+    height: 400px;
+    width: calc(((100%) / 1.7) + 390px);
   }
 }
 /*# sourceMappingURL=main.css.map */
