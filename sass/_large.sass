@@ -1,5 +1,7 @@
 @media screen and ( min-width: 992px )
     .header
+        width: calc(((100% - 1140px) / 2) + 1140px)
+        margin: 0 0 0 auto
     
         &__firstArticle
             display: flex
@@ -9,7 +11,7 @@
             align-items: flex-start
             width: 40%
             height: 60vh
-            padding-left: 50px
+            padding-left: 0
 
         &__secoundArticle
             width: 60%
@@ -28,6 +30,8 @@
 
         &__firstArticle
             width: 50%
+            grid-row-gap: 30px
+            grid-column-gap: 30px
 
         &__secoundArticle
             width: 50%
@@ -36,6 +40,7 @@
             justify-content: center
             align-content: flex-start
             align-items: flex-start
+            padding-left: 5vw
 
         &__headingTwo
             max-width: 200px
@@ -49,6 +54,9 @@
             top: 30%
             height: 400px
             width: calc(((100%) / 1.7) + 390px)
+
+        &__box
+            width: 100%
 
     .informationFirst
         flex-direction: row

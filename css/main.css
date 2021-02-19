@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 .paragraph {
   font-size: 1.8rem;
   line-height: 1.8;
@@ -17,8 +17,7 @@
 }
 
 .headingThree {
-  font-size: 2.7rem;
-  font-weight: 500;
+  font-size: 3rem;
   padding: 2rem 0rem;
 }
 
@@ -44,7 +43,6 @@
   }
   .headingThree {
     font-size: 3rem;
-    font-weight: 500;
     padding: 2rem 0rem;
   }
   .headingFour {
@@ -65,7 +63,6 @@
   }
   .headingTwo {
     font-size: 8rem;
-    font-weight: 500;
     padding: 2rem 0rem;
   }
   .headingThree {
@@ -94,7 +91,7 @@ body {
 
 html {
   font-size: 62.5%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -131,13 +128,14 @@ html {
 }
 
 .header__button {
+  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   background: black;
   color: white;
   border: none;
-  padding: 1.5rem 2.5rem;
+  padding: 1rem 3rem;
   margin-top: 2rem;
 }
 
@@ -187,13 +185,15 @@ html {
 }
 
 .aboutUs__headingThree {
-  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
 }
 
 .aboutUs__paragraph {
   font-style: italic;
   color: #808080;
-  letter-spacing: 1.1px;
+  letter-spacing: 1.05px;
+  line-height: 1.8;
 }
 
 .aboutUs__boxSVG {
@@ -240,13 +240,14 @@ html {
 }
 
 .aboutUs__button {
+  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   background: black;
   color: white;
   border: none;
-  padding: 1.5rem 2.5rem;
+  padding: 1rem 3rem;
   margin-top: 2rem;
 }
 
@@ -278,16 +279,16 @@ html {
 }
 
 .informationFirst__button {
+  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
-  letter-spacing: 1px;
-  font-weight: bold;
+  letter-spacing: 2px;
   text-transform: uppercase;
   background: none;
   color: black;
   border: none;
   padding: 0.5rem 0rem;
   margin-top: 2rem;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid black;
 }
 
 .informationFirst__firstArticle {
@@ -353,11 +354,12 @@ html {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    width: 55%;
+    width: 60%;
     height: 60vh;
+    padding-left: 6vw;
   }
   .header__secoundArticle {
-    width: 60%;
+    width: 50%;
     height: 60vh;
     background-position: -10px;
   }
@@ -372,11 +374,10 @@ html {
     display: grid;
     -ms-grid-columns: (1fr)[10];
         grid-template-columns: repeat(10, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    grid-column-gap: 0px;
   }
   .aboutUs__box--one {
-    margin: 0;
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
@@ -385,7 +386,6 @@ html {
     grid-row: 1 /span 2;
   }
   .aboutUs__box--two {
-    margin: 0;
     -ms-grid-column: 6;
     -ms-grid-column-span: 5;
     grid-column: 6 / span 5;
@@ -394,7 +394,6 @@ html {
     grid-row: 2 /span 2;
   }
   .aboutUs__box--three {
-    margin: 0;
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
@@ -403,7 +402,6 @@ html {
     grid-row: 3 /span 2;
   }
   .aboutUs__box--four {
-    margin: 0;
     -ms-grid-column: 6;
     -ms-grid-column-span: 5;
     grid-column: 6 / span 5;
@@ -419,6 +417,10 @@ html {
     position: absolute;
     top: 15%;
     left: 0;
+  }
+  .aboutUs__box {
+    width: 85%;
+    margin: 0 auto;
   }
   .informationFirst {
     -webkit-box-orient: horizontal;
@@ -462,6 +464,10 @@ html {
 }
 
 @media screen and (min-width: 992px) {
+  .header {
+    width: calc(((100% - 1140px) / 2) + 1140px);
+    margin: 0 0 0 auto;
+  }
   .header__firstArticle {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -480,7 +486,7 @@ html {
             align-items: flex-start;
     width: 40%;
     height: 60vh;
-    padding-left: 50px;
+    padding-left: 0;
   }
   .header__secoundArticle {
     width: 60%;
@@ -504,6 +510,8 @@ html {
   }
   .aboutUs__firstArticle {
     width: 50%;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
   }
   .aboutUs__secoundArticle {
     width: 50%;
@@ -522,6 +530,7 @@ html {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    padding-left: 5vw;
   }
   .aboutUs__headingTwo {
     max-width: 200px;
@@ -535,6 +544,9 @@ html {
     top: 30%;
     height: 400px;
     width: calc(((100%) / 1.7) + 390px);
+  }
+  .aboutUs__box {
+    width: 100%;
   }
   .informationFirst {
     -webkit-box-orient: horizontal;
