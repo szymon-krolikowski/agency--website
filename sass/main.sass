@@ -64,6 +64,8 @@ html
     justify-content: center
     padding: 5rem 2rem
     position: relative
+    max-width: 1300px
+    margin: 0 auto
 
     &__firstArticle
         padding: 5rem 2rem
@@ -130,6 +132,60 @@ html
         position: absolute
         top: 10%
         left: 0
+
+.informationFirst
+    display: flex
+    flex-direction: column
+    justify-content: center
+    position: relative
+    max-width: 100vw
+    margin: 0 auto
+    overflow: hidden
+    
+    &__button
+        font-size: 2rem
+        letter-spacing: 1px
+        font-weight: bold
+        text-transform: uppercase
+        background: none
+        color: black
+        border: none
+        padding: 0.5rem 0rem
+        margin-top: 2rem
+        border-bottom: 2px solid black
+
+    &__firstArticle
+        padding: 5rem 2rem
+        
+
+    &__secoundArticle
+        margin: 5rem auto
+        width: 90vw
+        height: 50vh
+        background-image: url("/image/imageTwo.jpg")
+        background-position: center
+        background-size: cover
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2)
+
+    &__square
+        width: 100vw
+        height: 250px
+        background-color: $yellow
+        position: absolute
+        z-index: -1
+        left: -5vw
+        top: 52%
+
+    &__circle
+        width: 350px
+        height: 350px
+        background-color: $yellow
+        position: absolute
+        border-radius: 50%
+        top: 0%
+        left: 30%
+        z-index: -1
+
 
 @import "./_medium"
 @import "./_large"
