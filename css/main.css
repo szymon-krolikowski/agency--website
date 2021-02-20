@@ -435,6 +435,10 @@ html {
   margin-top: 80px;
 }
 
+.team__box--one {
+  margin-top: 0px;
+}
+
 .team__imageBox {
   width: 100%;
 }
@@ -447,7 +451,7 @@ html {
 .team__paragraphName {
   font-family: 'Oswald', sans-serif;
   font-size: 3.6rem;
-  padding: 1.5rem;
+  padding: 1.5rem 0rem;
 }
 
 .team__paragraphWorkplace {
@@ -653,6 +657,44 @@ html {
   .informationSecound__circle {
     top: 72%;
     left: -10%;
+  }
+  .team {
+    width: 90vw;
+  }
+  .team__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .team__imageBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+  }
+  .team__textBox {
+    padding-left: 5rem;
+    width: 60%;
+    text-align: left;
+  }
+  .team__square {
+    top: 20%;
   }
 }
 
