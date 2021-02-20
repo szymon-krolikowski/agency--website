@@ -503,6 +503,7 @@ html {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin: 10rem 0rem 5rem;
 }
 
 .branding__article {
@@ -943,6 +944,18 @@ html {
     height: 200px;
     top: 40%;
     left: -20vw;
+  }
+  .branding {
+    min-height: 80vh;
+    max-height: 80vh;
+  }
+  .branding__article {
+    width: 40%;
+    max-width: 600px;
+    padding: 4rem 4rem;
+    margin: 0 15rem;
+    background-color: #292D33;
+    color: white;
   }
 }
 /*# sourceMappingURL=main.css.map */
