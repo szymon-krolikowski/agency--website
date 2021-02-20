@@ -421,6 +421,7 @@ html {
 
 .team__headingThree {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .team__article {
@@ -661,6 +662,9 @@ html {
   .team {
     width: 90vw;
   }
+  .team__headingThree {
+    font-size: 4rem;
+  }
   .team__box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -837,6 +841,66 @@ html {
     height: 270px;
     top: 72%;
     left: -5%;
+  }
+  .team {
+    width: 90vw;
+  }
+  .team__headingThree {
+    font-size: 5rem;
+  }
+  .team__article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .team__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 40%;
+    margin: 0 auto;
+  }
+  .team__box--largeMarginTop {
+    margin-top: 5rem;
+  }
+  .team__imageBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 45%;
+  }
+  .team__textBox {
+    padding-left: 2.9rem;
+    width: 60%;
+    text-align: left;
+  }
+  .team__square {
+    width: 120vw;
+    height: 200px;
+    top: 40%;
+    left: -20vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
