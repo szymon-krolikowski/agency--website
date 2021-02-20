@@ -264,6 +264,7 @@ html
 
     &__headingThree
         text-align: center
+        text-transform: uppercase
     
     &__article
         background: white
@@ -273,6 +274,9 @@ html
 
     &__box
         margin-top: 80px
+
+        &--one
+            margin-top: 0px
 
     &__imageBox
         width: 100%
@@ -284,7 +288,7 @@ html
     &__paragraphName
         font-family: 'Oswald', sans-serif
         font-size: 3.6rem
-        padding: 1.5rem
+        padding: 1.5rem 0rem
 
     &__paragraphWorkplace
         font-size: 2rem
@@ -312,6 +316,36 @@ html
         left: -5rem
         background-color: $yellow
         z-index: -1
+
+.branding
+    background-image: url("/image/imageEight.jpg")
+    background-position: center
+    background-size: cover
+    width: 100vw
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+
+    &__article
+        width: 90%
+        padding: 3rem 2rem
+        margin: 0 auto
+        background-color: #292D33
+        color: white
+
+    &__headingTwo
+        color: $yellow
+        padding: 0
+        padding-bottom: 2rem
+        font-weight: normal
+
+    &__paragraphMarginTop
+        margin-top: 2rem
+
+    &__span
+        color: $yellow
+        font-weight: bold
 
 
 
