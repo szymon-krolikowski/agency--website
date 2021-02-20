@@ -401,6 +401,87 @@ html {
   z-index: -1;
 }
 
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  max-width: 1300px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.team__headingThree {
+  text-align: center;
+}
+
+.team__article {
+  background: white;
+  padding: 3rem;
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team__box {
+  margin-top: 80px;
+}
+
+.team__imageBox {
+  width: 100%;
+}
+
+.team__image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.team__paragraphName {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3.6rem;
+  padding: 1.5rem;
+}
+
+.team__paragraphWorkplace {
+  font-size: 2rem;
+  color: #e72b5d;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.team__paragraphAboutEmployer {
+  color: #808080;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.team__iconBox {
+  margin-top: 1rem;
+}
+
+.team__icon {
+  width: 24px;
+  margin: 0rem 1rem;
+}
+
+.team__square {
+  width: 120vw;
+  height: 800px;
+  position: absolute;
+  top: 10%;
+  left: -5rem;
+  background-color: #F1C50E;
+  z-index: -1;
+}
+
 @media screen and (min-width: 767px) {
   .header {
     display: -webkit-box;
