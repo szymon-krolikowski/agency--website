@@ -352,7 +352,7 @@ html
     display: flex
     flex-direction: column
     justify-content: center
-    padding: 5rem 2rem
+    padding: 5rem 2rem 15rem
     position: relative
     max-width: 1300px
     margin: 0 auto
@@ -387,17 +387,19 @@ html
         height: 100px
         position: absolute
         background-color: $yellow
-        top: 41%
+        top: 35%
         left: -5rem
         z-index: -1
 
 .contact
     width: 100vw
+    height: 100%
     background-color: black
     padding: 5rem 2rem 0rem
 
     &__wrapper
         margin: 0 auto
+        height: 100%
 
     &__firstArticle
         display: flex
@@ -405,13 +407,12 @@ html
         justify-content: center
         align-content: center
         align-items: center
-        margin-bottom: 5rem
 
     &__input
         font-family: 'Open Sans', sans-serif
         padding: 1rem 1.2rem
-        width: 80%
-        max-width: 80%
+        width: 90%
+        max-width: 90%
         background-color: #202020
         border: none
         margin-bottom: 3rem
@@ -430,9 +431,22 @@ html
         padding: 1rem 3rem
 
     &__secoundArticle
-        width: 100vw
-        height: 48vh
-        
+        padding: 5rem 2rem
+
+    &__paragraphInfo
+        color: white
+        font-size: 1.4rem
+        line-height: 2
+
+    &__paragraphInfoBold
+        color: $yellow
+        font-size: 1.4rem
+        font-weight: bold
+        padding-bottom: 1rem
+
+    &__box
+        margin-bottom: 3rem
+
 
 
 @import "./_medium"
