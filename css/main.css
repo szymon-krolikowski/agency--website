@@ -62,7 +62,7 @@
     padding: 2rem 0rem;
   }
   .headingTwo {
-    font-size: 8rem;
+    font-size: 6rem;
     padding: 2rem 0rem;
   }
   .headingThree {
@@ -996,7 +996,6 @@ html {
     padding-left: 5vw;
   }
   .aboutUs__headingTwo {
-    max-width: 200px;
     font-weight: bold;
   }
   .aboutUs__paragraphLong {
