@@ -673,6 +673,23 @@ html {
   margin-bottom: 3rem;
 }
 
+.strengths {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 2rem;
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .adventage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1222,6 +1239,9 @@ html {
   }
   .statistic__square {
     top: 46%;
+  }
+  .strengths {
+    text-align: center;
   }
   .adventage {
     display: -webkit-box;
