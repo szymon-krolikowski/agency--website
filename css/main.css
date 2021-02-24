@@ -311,7 +311,7 @@ html {
   margin: 5rem auto;
   width: 90vw;
   height: 50vh;
-  background-image: url("image/imageTwo.jpg");
+  background-image: url("../image/imageTwo.jpg");
   background-position: center;
   background-size: cover;
   -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
@@ -500,7 +500,7 @@ html {
 }
 
 .branding {
-  background-image: url("image/imageEight.jpg");
+  background-image: url("../image/imageEight.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
