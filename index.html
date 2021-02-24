@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <div class="wrapper">
         <section class="header">
-            <article class="header__firstArticle">
+            <article class="header__firstArticle" data-aos="fade-right">
                 <div class="header__circle"></div>
                 <h1 class="headingOne header__headingOne"><span class="header__span">Des</span>ign Studio</h1>
                 <p class="paragraph">Jesteśmy firmą działającą w branży od wielu lat. Dzięki doświadczeniu i
@@ -20,13 +21,13 @@
                     najwyższym poziomie.</p>
                 <button class="header__button">Dowiedz się więcej</button>
             </article>
-            <article class="header__secoundArticle"></article>
+            <article class="header__secoundArticle" data-aos="fade-left"></article>
         </section>
 
         <section class="aboutUs">
             <article class="aboutUs__firstArticle">
                 <div class="aboutUs__square"></div>
-                <div class="aboutUs__box aboutUs__box--one">
+                <div data-aos="fade-right" class="aboutUs__box aboutUs__box--one">
                     <div class="aboutUs__boxSVG aboutUs__boxSVG--turquoise">
                         <img style="width: 50px; height: 50px;" src="svg/mobile-phone.svg">
                     </div>
@@ -34,7 +35,7 @@
                     <p class="paragraph aboutUs__paragraph">Wyszukiwarka Google wybiara ponad 90% internautów - bądź dla
                         nich widoczny, wzmacniaj swoją stronę pod względem SEO.</p>
                 </div>
-                <div class="aboutUs__box aboutUs__box--two">
+                <div data-aos="fade-up" class="aboutUs__box aboutUs__box--two">
                     <div class="aboutUs__boxSVG aboutUs__boxSVG--yellow">
                         <img style="width: 50px; height: 50px;" src="svg/camera.svg">
                     </div>
@@ -42,7 +43,7 @@
                     <p class="paragraph aboutUs__paragraph">Zaufaj naszym certyfikowanym specjalistom Google i zapewnij
                         swojej marce rozpoznawalność, zwiększając ruch na stronie.</p>
                 </div>
-                <div class="aboutUs__box aboutUs__box--three">
+                <div data-aos="fade-right" class="aboutUs__box aboutUs__box--three">
                     <div class="aboutUs__boxSVG aboutUs__boxSVG--blue">
                         <img style="width: 50px; height: 50px;" src="svg/video-player.svg">
                     </div>
@@ -50,7 +51,7 @@
                     <p class="paragraph aboutUs__paragraph">Pomożemy Ci wykorzystać potencjał mediów społecznościowych -
                         zbuduj z nami pozytywny wizerunek marki oraz społeczność swoich klientów.</p>
                 </div>
-                <div class="aboutUs__box aboutUs__box--four">
+                <div data-aos="fade-up" class="aboutUs__box aboutUs__box--four">
                     <div class="aboutUs__boxSVG aboutUs__boxSVG--pink">
                         <img style="width: 50px; height: 50px;" src="svg/dollar.svg">
                     </div>
@@ -61,22 +62,22 @@
                 </div>
             </article>
             <article class="aboutUs__secoundArticle">
-                <p class="aboutUs__paragraphTop">O nas</p>
-                <h2 class="headingTwo aboutUs__headingTwo">Wiemy jak wykorzystać potencjał tych rozwiązań</h2>
-                <p class="paragraph aboutUs__paragraphLong">Stosujemy wyłącznie sprawdzone narzędzia z zakresu budowania
+                <p data-aos="fade-left" class="aboutUs__paragraphTop">O nas</p>
+                <h2 data-aos="fade-left" class="headingTwo aboutUs__headingTwo">Wiemy jak wykorzystać potencjał tych rozwiązań</h2>
+                <p data-aos="fade-left" class="paragraph aboutUs__paragraphLong">Stosujemy wyłącznie sprawdzone narzędzia z zakresu budowania
                     oraz wdrażania strategii markietingowych dopasowanych do indywidualnych potrzeb danego
                     przedsiębiorstwa.</p>
                 <br>
-                <p class="paragraph aboutUs__paragraphLong">Doskonale wiemy, jak wykorzystać potencjał poszczególnych
+                <p data-aos="fade-left" class="paragraph aboutUs__paragraphLong">Doskonale wiemy, jak wykorzystać potencjał poszczególnych
                     mechanizmów, aby przekuć je w sukces Twojej firmy. Gwarantujemy wysoki standard obsługi oraz
                     efektywny przegieg współpracy.</p>
-                <button class="aboutUs__button">Sprawdź ofertę</button>
+                <button data-aos="fade-left" class="aboutUs__button">Sprawdź ofertę</button>
             </article>
         </section>
 
         <section class="informationFirst">
             <div class="informationFirst__circle"></div>
-            <article class="informationFirst__firstArticle">
+            <article data-aos="fade-right" data-aos-offset="400" class="informationFirst__firstArticle">
                 <h2 class="headingTwo informationFirst__headingTwo">Kampanie w social mediach</h2>
                 <p class="paragraph">Przeprowadzenie skutecznej kampanii marketingowej wymaga indywidualnego podejścia,
                     dlatego działamy etapowo, dopinając każdy z elementów strategii. Bardzo ważną częścią naszych
@@ -89,7 +90,7 @@
 
         <section class="informationSecound">
             <div class="informationSecound__square"></div>
-            <article class="informationSecound__firstArticle">
+            <article data-aos="fade-left" data-aos-offset="400" class="informationSecound__firstArticle">
                 <p class="informationSecound__paragraph">Długoletnia obecność w branży pozwala nam korzystać z bogatego
                     doświadczenia, a tym samym oferować skuteczne rozwiązania w obszarze SEO, Google Ads czy Social
                     Media. Działamy na wielu poziomach, oferując szeroką gamę usług, od analityki internetowej i
@@ -102,7 +103,8 @@
             <div class="informationSecound__circle"></div>
         </section>
 
-        <section class="strengths">
+        <section data-aos="fade-up"
+        data-aos-offset="100" class="strengths">
             <h2 class="headingTwo">Nasze mocne strony</h2>
             <p class="paragraph">Długoletnia obecność w branży pozwala nam korzystać z bogatego doświadczenia, a tym samym oferować skuteczne rozwiązania w obszarze SEO, Google Ads czy Social Media. Działamy na wielu poziomach, oferując szeroką gamę usług, od analityki internetowej i webdesignu po strategie marketingowe.</p>
         </section>
@@ -110,7 +112,7 @@
         <section class="adventage">
             <article class="adventage__firstArticle">
                 <div class="adventage__squareFirst"></div>
-                <div class="adventage__box adventage__box--firstArticle">
+                <div data-aos="fade-right" class="adventage__box adventage__box--firstArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -118,7 +120,7 @@
                     <p class="paragraph">Zaczynaliśmy od projektowania i wdrażania dedykowanych portali, dziś zajmujemy się ich promocją i
                         optymalizacją techniczną.</p>
                 </div>
-                <div class="adventage__box adventage__box--firstArticle">
+                <div data-aos="fade-right" class="adventage__box adventage__box--firstArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -127,7 +129,7 @@
                         przygotowaliśmy szeroką ofertę, działamy w różnych obszarach e-marketingu, by skutecznie
                         promować Twoja firmę.</p>
                 </div>
-                <div class="adventage__box adventage__box--firstArticle">
+                <div data-aos="fade-right" class="adventage__box adventage__box--firstArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -145,7 +147,7 @@
                 <div class="adventage__squareSecound"></div>
                 <div class="adventage__squareThird"></div>
                 <div class="adventage__squareFourth"></div>
-                <div class="adventage__box adventage__box--thirdArticle">
+                <div data-aos="fade-left" class="adventage__box adventage__box--thirdArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -153,7 +155,7 @@
                     <p class="paragraph">Wiemy, że słowa to żadne zapewnienie, dlatego posiadamy certyfikat, który jest potwierdzeniem
                         naszych umiejętności i doświadczenia.</p>
                 </div>
-                <div class="adventage__box adventage__box--thirdArticle">
+                <div data-aos="fade-left" class="adventage__box adventage__box--thirdArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -161,7 +163,7 @@
                     <p class="paragraph">Nic tak nie mówi o firmie, jak opinie jej klientów. Pochlebne rekomendacje to coś, czym z
                         przyjemnością możemy się pochwalić.</p>
                 </div>
-                <div class="adventage__box adventage__box--thirdArticle">
+                <div data-aos="fade-left" class="adventage__box adventage__box--thirdArticle">
                     <div>
                         <img style="width: 74px; height: 74px;" src="svg/certificate.svg">
                     </div>
@@ -255,25 +257,31 @@
         </section>
         <section class="statistic">
             <div class="statistic__square"></div>
-            <h2 class="headingTwo statistic__headingTwo">Design Studio</h2>
-            <p class="paragraph statistic__paragraphInfo">Liczby mówią same za siebie: 92% pozycjonowanych przez nas fraz znajduje się w TOP5 wyszukiwarki Google, wypozycjonowaliśmy do tej pory kilkanaście tysięcy fraz, a w roku 2015 nasz obrót wzrósł o ponad 200% w porównaniu do roku poprzedniego.</p>
+            <h2 data-aos="fade-up"
+            data-aos-offset="100" class="headingTwo statistic__headingTwo">Design Studio</h2>
+            <p data-aos="fade-up"
+            data-aos-offset="100" class="paragraph statistic__paragraphInfo">Liczby mówią same za siebie: 92% pozycjonowanych przez nas fraz znajduje się w TOP5 wyszukiwarki Google, wypozycjonowaliśmy do tej pory kilkanaście tysięcy fraz, a w roku 2015 nasz obrót wzrósł o ponad 200% w porównaniu do roku poprzedniego.</p>
             <article class="statistic__firstArticle">
-                <div class="statistic__box">
+                <div data-aos="fade-up"
+                data-aos-offset="100" class="statistic__box">
                     <p class="statistic__paragraphNumber">120</p>
                     <p class="statistic__paragraphName">Zaufanych</p>
                     <p class="statistic__paragraphName">klientów</p>
                 </div>
-                <div class="statistic__box">
+                <div data-aos="fade-up"
+                data-aos-offset="100" class="statistic__box">
                     <p class="statistic__paragraphNumber">90</p>
                     <p class="statistic__paragraphName">Kampanii</p>
                     <p class="statistic__paragraphName">marketingowych</p>
                 </div>
-                <div class="statistic__box">
+                <div data-aos="fade-up"
+        data-aos-offset="100" class="statistic__box">
                     <p class="statistic__paragraphNumber">50</p>
                     <p class="statistic__paragraphName">Zdobytych</p>
                     <p class="statistic__paragraphName">Nagród</p>
                 </div>
-                <div class="statistic__box">
+                <div data-aos="fade-up"
+                data-aos-offset="100" class="statistic__box">
                     <p class="statistic__paragraphNumber">130</p>
                     <p class="statistic__paragraphName">Współpracujących</p>
                     <p class="statistic__paragraphName">Partnerów</p>
@@ -323,5 +331,10 @@
         </footer>
     </div>
 </body>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+    
+</script>
+<script src="script.js"></script>
 </html>
