@@ -457,7 +457,7 @@ html {
 }
 
 .team__image {
-  width: 100%;
+  width: 100% !important;
   border-radius: 50%;
 }
 
