@@ -52,6 +52,7 @@ html
         border: none
         padding: 1rem 3rem
         margin-top: 2rem
+        cursor: pointer
         transition: 0.5s background-color, 0.5s color
 
         &:hover
@@ -140,6 +141,16 @@ html
         border: none
         padding: 1rem 3rem
         margin-top: 2rem
+        cursor: pointer
+        transition: 0.5s background-color, 0.5s color
+
+        &:hover
+            background-color: $yellow
+            color: black
+
+        &:focus
+            background-color: $yellowTwo
+            color: black
 
     &__square
         width: 100vw
@@ -170,7 +181,7 @@ html
         padding: 0.5rem 0rem
         margin-top: 2rem
         border-bottom: 4px solid black
-
+        cursor: pointer
 
     &__firstArticle
         padding: 5rem 0rem
@@ -222,6 +233,16 @@ html
         border: none
         padding: 1rem 3rem
         margin-top: 2rem
+        cursor: pointer
+        transition: 0.5s background-color, 0.5s color
+
+        &:hover
+            background-color: $yellow
+            color: black
+
+        &:focus
+            background-color: $yellowTwo
+            color: black
 
     &__firstArticle
         padding: 5rem 0rem
@@ -291,8 +312,7 @@ html
         width: 100%
 
     &__image
-        width: 100% !important
-        height: 90% !important
+        width: 100%
         border-radius: 50%
 
     &__paragraphName
@@ -438,11 +458,16 @@ html
         font-size: 2rem
         letter-spacing: 3px
         text-transform: uppercase
-        background: $yellow
+        background-color: $yellow
         color: black
         border: none
         padding: 1rem 3rem
+        cursor: pointer
+        transition: 0.5s background-color, 0.5s color
 
+        &:hover
+            background-color: $yellowTwo
+    
     &__secoundArticle
         padding: 5rem 2rem
 
@@ -450,6 +475,11 @@ html
         color: white
         font-size: 1.4rem
         line-height: 2
+        text-decoration: none
+        transition: 0.5s color
+
+        &:hover
+            color: $yellow
 
     &__paragraphInfoBold
         color: $yellow
