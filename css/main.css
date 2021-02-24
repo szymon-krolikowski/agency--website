@@ -593,9 +593,13 @@ html {
   height: 100px;
   position: absolute;
   background-color: #F1C50E;
-  top: 35%;
+  top: 48%;
   left: -5rem;
   z-index: -1;
+}
+
+.statistic__paragraphInfo {
+  text-align: center;
 }
 
 .contact {
@@ -961,7 +965,7 @@ html {
     height: 150px;
     position: absolute;
     background-color: #F1C50E;
-    top: 43%;
+    top: 55%;
     left: -25vw;
     z-index: -1;
   }
@@ -1238,7 +1242,7 @@ html {
     color: white;
   }
   .statistic__square {
-    top: 46%;
+    top: 50%;
   }
   .strengths {
     text-align: center;
