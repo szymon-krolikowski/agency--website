@@ -48,15 +48,24 @@ html
         letter-spacing: 3px
         text-transform: uppercase
         background: black
-        color: white
+        color: $yellow
         border: none
         padding: 1rem 3rem
         margin-top: 2rem
+        transition: 0.5s background-color, 0.5s color
+
+        &:hover
+            background-color: $yellow
+            color: black
+
+        &:focus
+            background-color: $yellowTwo
+            color: black
 
     &__secoundArticle
         width: 100vw
         height: 50vh
-        background-image: url("/image/imageOne.jpg")
+        background-image: url("image/imageOne.jpg")
         background-position: center
         background-size: cover
 
@@ -170,7 +179,7 @@ html
         margin: 5rem auto
         width: 90vw
         height: 50vh
-        background-image: url("/image/imageTwo.jpg")
+        background-image: url("image/imageTwo.jpg")
         background-position: center
         background-size: cover
         box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2)
@@ -318,7 +327,7 @@ html
         z-index: -1
 
 .branding
-    background-image: url("/image/imageEight.jpg")
+    background-image: url("image/imageEight.jpg")
     background-position: center
     background-size: cover
     width: 100vw

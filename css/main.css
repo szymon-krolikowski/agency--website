@@ -133,16 +133,28 @@ html {
   letter-spacing: 3px;
   text-transform: uppercase;
   background: black;
-  color: white;
+  color: #F1C50E;
   border: none;
   padding: 1rem 3rem;
   margin-top: 2rem;
+  -webkit-transition: 0.5s background-color, 0.5s color;
+  transition: 0.5s background-color, 0.5s color;
+}
+
+.header__button:hover {
+  background-color: #F1C50E;
+  color: black;
+}
+
+.header__button:focus {
+  background-color: #ddb104;
+  color: black;
 }
 
 .header__secoundArticle {
   width: 100vw;
   height: 50vh;
-  background-image: url("/image/imageOne.jpg");
+  background-image: url("image/imageOne.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -299,7 +311,7 @@ html {
   margin: 5rem auto;
   width: 90vw;
   height: 50vh;
-  background-image: url("/image/imageTwo.jpg");
+  background-image: url("image/imageTwo.jpg");
   background-position: center;
   background-size: cover;
   -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
@@ -488,7 +500,7 @@ html {
 }
 
 .branding {
-  background-image: url("/image/imageEight.jpg");
+  background-image: url("image/imageEight.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
