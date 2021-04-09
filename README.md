@@ -1,4 +1,4 @@
-# Website Avocado Studio 
+# Website Design Studio
 
 This project presents a simple, clean landing page for a marketing/design studio. I plan to add more sub-pages and user integrations to the site in the future.
 
